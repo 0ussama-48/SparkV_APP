@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/item_background">
+
+    <!-- Calle -->
+    <TextView
+        android:id="@+id/calle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calle"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Número de Casa -->
+    <TextView
+        android:id="@+id/numeroCasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de Casa"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <!-- Ciudad -->
+    <TextView
+        android:id="@+id/ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <!-- Código Postal -->
+    <TextView
+        android:id="@+id/codigoPostal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Código Postal"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

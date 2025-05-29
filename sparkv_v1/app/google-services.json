@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "451710347550",
+    "firebase_url": "https://sparkv001-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sparkv001",
+    "storage_bucket": "sparkv001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451710347550:android:67002ee969de88866e810f",
+        "android_client_info": {
+          "package_name": "com.example.sparkv_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451710347550-40uof4r3s35tt58of5o5u4fj1i16p7k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Vy7yrrd2G4F-jmDDCTxInOyiw46PQxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451710347550-40uof4r3s35tt58of5o5u4fj1i16p7k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451710347550:android:fb6f0357c6f110206e810f",
+        "android_client_info": {
+          "package_name": "com.sparkv.sparkv_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451710347550-40uof4r3s35tt58of5o5u4fj1i16p7k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Vy7yrrd2G4F-jmDDCTxInOyiw46PQxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451710347550-40uof4r3s35tt58of5o5u4fj1i16p7k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

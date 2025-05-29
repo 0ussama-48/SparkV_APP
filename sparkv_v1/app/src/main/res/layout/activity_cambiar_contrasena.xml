@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titleCambiarContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Contraseña"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1e80c1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Contraseña Actual -->
+    <EditText
+        android:id="@+id/contrasenaActualInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña Actual"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/titleCambiarContrasena"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Nueva Contraseña -->
+    <EditText
+        android:id="@+id/nuevaContrasenaInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Contraseña"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/contrasenaActualInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botón Confirmar Cambio -->
+    <Button
+        android:id="@+id/botonConfirmarCambio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Cambio"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/nuevaContrasenaInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

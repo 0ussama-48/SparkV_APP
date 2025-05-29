@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/item_background"
+    android:elevation="4dp"
+    android:layout_margin="8dp">
+
+    <!-- Nombre del Cliente -->
+    <TextView
+        android:id="@+id/clientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cliente"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <!-- Dirección -->
+    <TextView
+        android:id="@+id/detalle_direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección"
+        android:textSize="14sp"
+        android:textColor="#666666" />
+
+    <!-- Estado del Servicio -->
+    <TextView
+        android:id="@+id/estadoServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:textSize="14sp"
+        android:textColor="#81C784" />
+</LinearLayout>

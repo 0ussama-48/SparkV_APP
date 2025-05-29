@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nombre del Limpiador -->
+        <TextView
+            android:id="@+id/nombreLimpiador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Limpiador"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Especialidad -->
+        <TextView
+            android:id="@+id/especialidadLimpiador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Especialidad"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Zona de Cobertura -->
+        <TextView
+            android:id="@+id/zonaCoberturaLimpiador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zona de Cobertura"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Calificación Promedio -->
+        <TextView
+            android:id="@+id/calificacionLimpiador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calificación: 4.5"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

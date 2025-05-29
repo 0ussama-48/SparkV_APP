@@ -1,0 +1,29 @@
+<!-- res/menu/menu_lateral.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_panel_control"
+            android:icon="@drawable/ic_panel_control"
+            android:title="Panel de Control" />
+        <item
+            android:id="@+id/nav_gestion_usuarios"
+            android:icon="@drawable/person_24"
+            android:title="Gestión de Usuarios" />
+        <item
+            android:id="@+id/nav_gestion_servicios"
+            android:icon="@drawable/ic_servicios"
+            android:title="Gestión de Servicios" />
+        <item
+            android:id="@+id/nav_gestion_pedidos"
+            android:icon="@drawable/ic_pedidos"
+            android:title="Gestión de Pedidos" />
+        <item
+            android:id="@+id/nav_reportes_analisis"
+            android:icon="@drawable/ic_reportes"
+            android:title="Reportes y Análisis" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/person_24"
+            android:title="Perfil" />
+    </group>
+</menu>

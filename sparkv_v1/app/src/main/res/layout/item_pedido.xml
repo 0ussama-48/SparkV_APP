@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ID del Pedido -->
+        <TextView
+            android:id="@+id/idPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: "
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Cliente -->
+        <TextView
+            android:id="@+id/textViewCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliente: "
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Servicio -->
+        <TextView
+            android:id="@+id/textViewServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servicio: "
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Estado del Pedido -->
+        <TextView
+            android:id="@+id/estadoPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado: "
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Total del Pedido -->
+        <TextView
+            android:id="@+id/totalPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: "
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Método de Pago -->
+        <TextView
+            android:id="@+id/metodoPagoPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Método de Pago: "
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Botón de Editar -->
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

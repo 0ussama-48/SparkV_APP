@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colores principales -->
+    <color name="primary_color">#1e80c1</color> <!-- Azul claro -->
+    <color name="secondary_color">#E1257AA8</color> <!-- TXT -->
+    <color name="text_primary">#000000</color> <!-- Negro -->
+    <color name="text_secondary">#676767</color> <!-- Gris oscuro -->
+    <color name="background_color">#FFFFFF</color> <!-- Blanco -->
+
+    <!-- Botones -->
+    <color name="button_background">#1e80c1</color> <!-- Azul claro -->
+    <color name="button_text">#FFFFFF</color> <!-- Texto blanco -->
+
+    <!-- Otros colores -->
+    <color name="divider_color">#CCCCCC</color> <!-- Gris claro para divisores -->
+    <!-- Colores para Cliente -->
+    <color name="primary_client">#4CAF50</color> <!-- Verde -->
+    <color name="secondary_client">#8BC34A</color>
+
+    <!-- Colores para Limpiador -->
+    <color name="primary_cleaner">#FF9800</color> <!-- Naranja -->
+    <color name="secondary_cleaner">#FFC107</color>
+    <color name="blue">#2196F3</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+</resources>

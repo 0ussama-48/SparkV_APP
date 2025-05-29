@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="tipos_retroalimentacion">
+        <item>Sugerencia</item>
+        <item>Reclamación</item>
+        <item>Felicitación</item>
+    </string-array>
+</resources>

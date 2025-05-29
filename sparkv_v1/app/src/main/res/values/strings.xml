@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">sparkv</string>
+    <!-- Textos para la pantalla de Soporte -->
+    <string name="soporte_titulo">Centro de Soporte</string>
+    <string name="soporte_preguntas_frecuentes">Preguntas Frecuentes</string>
+    <string name="soporte_buscar_solucion_hint">Buscar solución...</string>
+    <string name="soporte_politicas_privacidad">Politicas de privacidad</string>
+    <string name="soporte_reportar_problema">Reportar un problema</string>
+
+    <string name="title_activity_limpiador_main">LimpiadorMainActivity</string>
+    <string name="abrir_menu">Abrir menú</string>
+    <string name="cerrar_menu">Cerrar menú</string>
+</resources>
